@@ -1,7 +1,7 @@
 body{
     margin: auto;
     width: 50%;
-    padding: 10px;
+    margin-bottom: 5vh;
 }
 header{
     text-align: center;
@@ -10,9 +10,67 @@ header{
 header img{
     scale: 70%;
 }
-header h2{
-    background-color: #FDFBF1;
+h1{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 4vh;
 }
-body img{
+header h2{
+    padding: 1rem;
+    background-color: #FDFBF1;
+    border-top: #FFD66C;
+    border-left-color: #FDFBF1;
+    border-bottom-color: #FDFBF1;
+    border-right-color: #FDFBF1;
+    border-style: solid;
+    border-radius: 2px;
+}
+#sezione-focaccia{
+    text-align: left;
+}
+#foto{
     border-radius: 10px;
+    box-shadow: 5px 5px 9px -1px #888888;
+    max-width: 100%;
+    text-align: center;
+}
+#sally{
+    color: rgba(128, 128, 128, 0.725);
+    margin-bottom: 2vh;
+    text-align: center;
+}
+#feat{
+    border-top: #ffffff;
+    border-left-color: #FFD66C;
+    border-bottom-color: #ffffff;
+    border-right-color: #ffffff;
+    border-style: solid;
+    border-radius: 2px;
+    padding-left: 1vw;
+}
+#feat h2{
+    font-size: 0.8rem;
+    color: brown;
+    margin-bottom: 0;
+    border-left: #FFD66C;
+}
+#feat a{
+    font-size: 1rem;
+    color: darkblue;
+}
+.titoli{
+    font-weight: normal;
+    border-top: #ffffff;
+    border-left-color: #ffffff;
+    border-bottom-color: lightblue;
+    border-right-color: #ffffff;
+    border-style: solid;
+    border-radius: 2px;
+    padding-bottom: 1.5vh;
+}
+a{
+    color: darkblue;
+}
+ul li{
+    line-height: 2;
 }
