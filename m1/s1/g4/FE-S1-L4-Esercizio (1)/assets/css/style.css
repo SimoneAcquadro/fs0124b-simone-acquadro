@@ -3,8 +3,9 @@ body{
     margin: auto;
     font-family: poppins;
     text-align: center;
-    padding: 15px;
+    padding: 20px;
     background-image: url(../img/sfondo.png);
+    line-height: 1.5rem;
 }
 /* HEADER */
 #logo{
@@ -18,6 +19,8 @@ body{
     text-align: center;
     color: white;
     padding-bottom: 20px;
+    box-shadow: 10px 10px 42px -11px rgba(0,0,0,0.75);
+    line-height: 2.5rem;
 }
 header a{
     text-decoration: none;
@@ -41,14 +44,38 @@ h1{
     padding: 15px;
     background-color: white;
     text-align: left;
+    box-shadow: 10px 10px 42px -11px rgba(0,0,0,0.75);
+
 }
+/* ELEMENTI NEL MAIN - ARTICLE */
 #titolo-post{
     font-size: 2.5rem;
     font-weight: 600;
+    line-height: 2.5rem;
+    padding-bottom: 20px;
 }
-
-
-/* ELEMENTI NEL MAIN - ARTICLE */
+.testo{
+    padding-bottom: 20px;
+}
+#sottotitolo{
+    color: rgba(128, 128, 128, 0.452);
+    padding-bottom: 20px;
+}
+.viola{
+    color: #A22972;
+}
+ul{
+    list-style-type: unset;
+    margin: auto;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+ol{
+    list-style-type: decimal;
+    margin: auto;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
 
 /* TABELLE */
 
