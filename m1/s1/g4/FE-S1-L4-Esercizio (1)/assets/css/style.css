@@ -100,7 +100,9 @@ th, td, tr{
     padding-bottom: 20px;
 }
 iframe{
-    
+    margin: auto;
+    width: auto;
+    height: auto;
 }
 /* FORM */
 
