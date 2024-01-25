@@ -18,10 +18,8 @@ h1{
 header h2{
     padding: 1rem;
     background-color: #FDFBF1;
+    border: #FDFBF1;
     border-top: #FFD66C;
-    border-left-color: #FDFBF1;
-    border-bottom-color: #FDFBF1;
-    border-right-color: #FDFBF1;
     border-style: solid;
     border-radius: 2px;
 }
