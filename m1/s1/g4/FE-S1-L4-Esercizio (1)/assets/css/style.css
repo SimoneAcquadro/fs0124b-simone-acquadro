@@ -99,13 +99,12 @@ th, td, tr{
 #t-iframe{
     padding-bottom: 20px;
 }
-iframe{
+#iframe{
     margin: auto;
-    width: auto;
-    height: auto;
+    height: 250px;
+    width: 100%;
+    border-radius: 20px;
 }
 /* FORM */
-
-/* ELEMENTI NELL' ASIDE */
 
 /* FOOTER */

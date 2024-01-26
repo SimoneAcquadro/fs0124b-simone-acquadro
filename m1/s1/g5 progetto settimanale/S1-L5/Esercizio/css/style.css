@@ -1,0 +1,27 @@
+/* Generale */
+*{
+    text-align: center;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+    color: #25a2c3;
+    line-height: 1.5;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    color: #393d41;
+    line-height: 1.65;
+}
+/* Header */
+#header{
+    margin: auto;
+    max-height: 50%;
+    max-width: 50%;
+}
+/* Main */
+
+/* Aside */
+
+/* Footer */
