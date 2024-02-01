@@ -95,7 +95,7 @@ const starWarsCharacters = [
     mass: 77,
     hair_color: 'auburn, white',
     skin_color: 'fair',
-    eye_color: 'blue_gray',
+    eye_color: 'blue-gray',
     birth_year: '57BBY',
     gender: 'male',
   },
@@ -140,7 +140,7 @@ let eyeColor = {
   yellow: [],
   brown: [],
   red: [],
-  blue_gray: [],
+  "bluegray": [],
 }
 
 /* ESERCIZIO 5
@@ -148,23 +148,22 @@ let eyeColor = {
   Ogni personaggio dovrà finire nell'array corrispondente al suo colore degli occhi (al valore della sua proprietà "eye_color").
 */
 for (let i = 0; i < starWarsCharacters.length; i++) {
-    let personaggio = starWarsCharacters[i]
 
-    switch (eyeColor) {
+    switch (starWarsCharacters[i]) {
       case 'blue':
-        eyeColor.blue.push(personaggio);
+        eyeColor.blue.push(starWarsCharacters[i]);
         break;
       case 'yellow':
-        eyeColor.yellow.push(personaggio);
+        eyeColor.yellow.push(starWarsCharacters[i]);
         break;
       case 'brown':
-          eyeColor.brown.push(personaggio);
+          eyeColor.brown.push(starWarsCharacters[i]);
         break;
       case 'red':
-        eyeColor.red.push(personaggio);
+        eyeColor.red.push(starWarsCharacters[i]);
         break;
       case 'blue_gray':
-        eyeColor.blue_gray.push(personaggio);
+        eyeColor["blue-gray"].push(starWarsCharacters[i]);
         break
     }
 }
@@ -174,10 +173,15 @@ console.log(eyeColor);
   Usa un while loop per calcolare la massa totale dell'equipaggio. Salvala in una variabile chiamata "crewMass".
 */
 
-while (condition) {
-  
-}
+let i = 0;
+let crewMass = 0;
 
+while( i < starWarsCharacters.length) {
+
+  crewMass += starWarsCharacters[i].mass
+  i++
+}
+console.log(crewMass);
 /* ESERCIZIO 7
   Crea uno if/else statement per rivelare la tipologia di carico, utilizzando la massa totale, di un'ipotetica astronave contenente i personaggi dell'array "starWarsCharacters".
 
@@ -189,6 +193,8 @@ while (condition) {
 
   Una volta fatto, modifica la massa di qualche elemento dell'equipaggio e vedi se riesci ad ottenere un messaggio diverso.
 */
+
+
 
 /* ESERCIZIO 8
   Usa un for loop per cambiare il valore della proprietà "gender" di alcuni personaggi dal valore "n/a" a "robot" (Tip: puoi effettuare la riassegnazione del valore corrispondente o creare un nuovo array)
