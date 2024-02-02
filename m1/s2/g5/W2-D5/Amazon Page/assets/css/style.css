@@ -83,11 +83,10 @@ h1{
     padding-bottom: 40px;
 }
 .row {
-   object-fit: contain;
+   object-fit: cover;
 }
 
 .column {
-    object-fit: contain;
     display: inline-block;
     height: 44vh;
     width: 20%;
@@ -96,27 +95,32 @@ h1{
     margin: 22px;
     border-radius: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    object-fit: cover;
 }
 
 #foto1{
     background-image: url(../images/img_1.jpg);
     background: no-repeat;
+    object-fit: cover;
 }
 #foto2{
     background-image: url(../images/img_2.jpg);
     background: no-repeat;
+    object-fit: cover;
 }
 #foto3{
     background-image: url(../images/img_3.jpg);
     background: no-repeat;
+    object-fit: cover;
 }
 #foto4{
     background-image: url(../images/img_4.jpg);
     background: no-repeat;
+    object-fit: cover;
 }
 
 .cards{
-    object-fit: contain;
+    object-fit: cover;
 }
 
 .cardSection{
