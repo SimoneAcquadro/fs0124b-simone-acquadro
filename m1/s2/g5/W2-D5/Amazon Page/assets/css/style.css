@@ -83,21 +83,40 @@ h1{
     padding-bottom: 40px;
 }
 .row {
-    width: 100%;
-    height: 48vh;
+   object-fit: contain;
 }
 
 .column {
-    height: fit-content;
-    width: fit-content;
+    object-fit: contain;
     display: inline-block;
-    height: 40vh;
+    height: 44vh;
     width: 20%;
     overflow: hidden;
     padding: 0px;
-    margin: 32px;
+    margin: 22px;
     border-radius: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#foto1{
+    background-image: url(../images/img_1.jpg);
+    background: no-repeat;
+}
+#foto2{
+    background-image: url(../images/img_2.jpg);
+    background: no-repeat;
+}
+#foto3{
+    background-image: url(../images/img_3.jpg);
+    background: no-repeat;
+}
+#foto4{
+    background-image: url(../images/img_4.jpg);
+    background: no-repeat;
+}
+
+.cards{
+    object-fit: contain;
 }
 
 .cardSection{
