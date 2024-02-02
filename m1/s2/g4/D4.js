@@ -59,13 +59,13 @@ console.log(boundary(20));
 
 function epify(stringa) {
     if (stringa == 'epicode') {
-        console.log(stringa);        
+        return stringa;        
     } else {
         result = 'epicode' + stringa;
         return result
     }
 }
-console.log(epify('mannaggina'));
+console.log(epify('epicode'));
 
 /* ESERCIZIO 6
  Scrivi una funzione di nome "check3and7" che accetta un numero positivo come parametro. La funzione deve controllare che il parametro sia un multiplo
