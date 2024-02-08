@@ -1,0 +1,37 @@
+*{
+    text-align: center;
+    max-width: 100%;
+}
+.tombola{
+    font-family: 'Roboto', sans-serif;
+    padding: 30px 10px 30px 10px;
+    font-size: 24px;
+}
+#tabellone{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.tabella{
+    flex: 0 1 calc(100% / 19);
+    margin-bottom: 20px;
+}
+#button{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 2rem;
+}
+#button:hover{
+    cursor: pointer;
+    background-color: brown;
+}
+#numeroCasuale{
+    margin: 20px;
+}
+.evidenzia{
+    background-color: red;
+    color: white;
+}
