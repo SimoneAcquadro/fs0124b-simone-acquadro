@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottoni {
+    background-color: #FBF7E3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 15px;
+    padding: 20px;
+    border-radius: 50px;
+ }
+
+ .bottone {
+    background-color: #F3DF85;
+    color: #612407;
+    padding: 15px 20px;
+    border-radius: 50px;
+
+ }
+
+ .bottone:nth-of-type(3) {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 3rem;
+    padding: 20px 25px;
+ }
+
+ #logo{
+    aspect-ratio: 1 / 1;
+    width: 5rem;
+ }

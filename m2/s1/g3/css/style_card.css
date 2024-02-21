@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card{
+    background-color: #FBF7E3;
+    height: auto;
+    max-height: fit-content;
+    width: 280px;
+    margin: 20px;
+    padding-bottom: 20px;
+    border-radius: 100px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#foto{
+    
+    height: auto;
+    width: 280px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+}
+
+.btn{
+    margin-top: 20px;
+    padding: 10px 40px;
+    border-radius: 50px;
+    border-style: none;
+    background-color: #F3DF85;
+}
+
+.card_title{
+    font-weight: 600;
+}
+
+.text_div{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    color: #612407;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
