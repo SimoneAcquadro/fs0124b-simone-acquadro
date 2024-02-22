@@ -1,0 +1,79 @@
+body {
+    margin: 20px auto;
+    font-family: 'Indie Flower';
+    background:#666;
+    color:#fff;
+  }
+  
+  h2 {
+    font-weight: bold;
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 2rem;
+    font-weight: normal;
+  }
+
+  ul,li{
+    list-style:none;
+  }
+
+  ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  ul li a{
+    text-decoration:none;
+    color:#000;
+    display:block;
+    height:10em;
+    width:15em;
+    padding:1em;
+    box-shadow: 5px 5px 10px;
+  }
+
+  ul li{
+    margin:1em;
+  }
+
+  .giallo{
+    background: rgb(171,171,171);
+    background: linear-gradient(0deg, rgba(171,171,171,1) 0%, rgba(255,255,204,1) 21%);
+    transform: rotate(-5deg);
+    transition: ease-in-out 0.3s;
+  }
+
+  .verde{
+    background: rgb(171,171,171);
+    background: linear-gradient(0deg, rgba(171,171,171,1) 0%, rgba(200,248,202,1) 21%);
+    transform: rotate(4deg);
+    transition: ease-in-out 0.3s;
+
+  }
+
+  .viola{
+    background: rgb(171,171,171);
+    background: linear-gradient(0deg, rgba(171,171,171,1) 0%, rgba(200,200,246,1) 21%);
+    transform: rotate(-6deg);
+    transition: ease-in-out 0.3s;
+
+  }
+  
+  .giallo:hover, .giallo:focus{
+    transform: scale(1.25);
+    position:relative;
+    z-index:2;
+  }
+  .verde:hover, .verde:focus{
+    transform: scale(1.25);
+    position:relative;
+    z-index:2;
+  }
+  .viola:hover, .viola:focus{
+    transform: scale(1.25);
+    position:relative;
+    z-index:2;
+  }
