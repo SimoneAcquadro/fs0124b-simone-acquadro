@@ -26,8 +26,8 @@ header li {
 }
 
 .header>* {
-    margin-left: 17vw;
-    margin-right: 17vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
 #logo {
@@ -43,6 +43,29 @@ header li {
     padding: 15px 20px;
     cursor: pointer;
     transition: 0.3s ease;
+}
+
+@media screen and (max-width: 727px) {
+    .header{
+        padding: 10px;
+    }
+    .header ul li:nth-child(1),
+    .header ul li:nth-child(2),
+    .header ul li:nth-child(3),
+    .header ul li:nth-child(4)
+    {
+        display: none;
+    }
+    .btn_title{
+        padding: 0;
+        width: 35vw;
+        height: 10vw;
+        margin: 0;
+    }
+    #logo {
+        width: 11rem;
+        margin-right: auto;
+    }
 }
 
 .banner {
@@ -66,8 +89,8 @@ header li {
 }
 
 .banner>* {
-    margin-left: 17vw;
-    margin-right: 17vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
 .btn_banner {
@@ -79,6 +102,24 @@ header li {
     border-radius: 40px;
     padding: 10px 40px;
     cursor: pointer;
+}
+
+@media screen and (max-width: 727px){
+    .banner{
+        padding-top: 150px;
+        padding-left: 5vw;
+        padding-right: 0;
+    }
+    .banner h1 {
+        font-size: 5rem;
+    }
+    .banner>*{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .banner p {
+        max-width: 85vw;
+    }
 }
 
 .trending {
@@ -101,8 +142,8 @@ header li {
 }
 
 .section>* {
-    margin-left: 17vw;
-    margin-right: 17vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
 .numero {
@@ -142,8 +183,15 @@ header li {
     color: gray;
 }
 
+@media screen and (max-width: 727px){
+    .section>*{
+        margin: 0;
+        padding: 0;
+    }
+}
+
 .articles_vertical>* {
-    margin-left: 18.5vw;
+    margin-left: 11.5vw;
 }
 
 .article_vertical_title {
@@ -211,10 +259,24 @@ aside {
     display: flex;
 }
 
+@media screen and (max-width: 727px) {
+    aside {
+        display: block;
+    }
+    .article_img{
+        display: flex;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-right: 5px;
+        font-size: 1rem;
+        align-items: center;
+    }
+}
+
 .tag_cloud {
     display: flex;
     flex-direction: column;
-    margin-right: 17vw;
+    margin-right: 10vw;
 }
 
 .tag_cloud h2{
@@ -262,3 +324,19 @@ aside {
     padding: 10px;
     padding-left: 0;
 }
+
+@media screen and(max-width: 727px){
+    .mobile_flex{
+        display: flex;
+        flex-direction: row;
+    }
+}
+/* 
+.fixed_active{
+    position: fixed;
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+} */
+
