@@ -1,0 +1,43 @@
+@import 'reset';
+@import 'colori';
+@import 'font';
+@import 'spaziature';
+@import 'bottoni';
+@import 'mixins';
+@import 'animazioni';
+
+body {
+    font-family: $font-default;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    margin-left: $margin-primary;
+    margin-right: $margin-primary;
+    padding-top: $margin-secondary;
+    margin-bottom: $margin-secondary;
+
+    ul {
+        display: flex;
+
+        li {
+            padding-left: $padding-p;
+            padding-right: $padding-p;
+        }
+
+        a {
+            text-decoration: $decorazioni;
+            color: $btn-scritta;
+        }
+
+    }
+
+    h2 {
+        margin-right: auto;
+        font-weight: 900;
+    }
+}
+.hero{
+    background-color: $bg-hero;
+}
