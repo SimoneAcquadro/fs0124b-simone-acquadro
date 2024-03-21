@@ -15,7 +15,7 @@ export class AppComponent {
     fetch('../assets/db.json')
     .then(res => res.json())
     .then((contenutoJson:JsonContent) => {
-      
+
       this.postArr = contenutoJson.posts
 
     })
