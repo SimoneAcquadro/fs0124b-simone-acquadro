@@ -1,0 +1,56 @@
+[
+    {
+        "brand": "Fiat",
+        "brandLogo": "https://picsum.photos/100/100?random=7",
+        "model": "500L",
+        "modelImage": "https://www.federmetano.it/wp-content/uploads/2018/03/fiat-500L.jpg",
+        "year": 2015,
+        "price": 7500,
+        "available": false
+    },
+    {
+        "brand": "Fiat",
+        "brandLogo": "https://picsum.photos/100/100?random=7",
+        "model": "Panda",
+        "modelImage": "https://cdn.auto.it/img/1200/600/2023/07/13/081918102-8f4a627f-3433-4854-af90-01d468faf99e.jpg",
+        "year": 2010,
+        "price": 3500,
+        "available": true
+    },
+    {
+        "brand": "Ford",
+        "brandLogo": "https://picsum.photos/100/100?random=8",
+        "model": "Taurus",
+        "modelImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/1991_Ford_Taurus_GL_sedan_--_09-07-2009.jpg/260px-1991_Ford_Taurus_GL_sedan_--_09-07-2009.jpg",
+        "year": 2009,
+        "price": 5200,
+        "available": false
+    },
+    {
+        "brand": "Ford",
+        "brandLogo": "https://picsum.photos/100/100?random=8",
+        "model": "Focus",
+        "modelImage": "https://www.ambrostore.it/media/wfmcqqvb/ford-focus-st-line-x-1.jpg",
+        "year": 2014,
+        "price": 9700,
+        "available": true
+    },
+    {
+        "brand": "Audi",
+        "brandLogo": "https://picsum.photos/100/100?random=9",
+        "model": "A3",
+        "modelImage": "https://www.noleggiosemplice.it/static/images/vehicles/vehicle_first_img/1667947248964_A3-Sportback.webp",
+        "year": 2012,
+        "price": 4300,
+        "available": true
+    },
+    {
+        "brand": "Audi",
+        "brandLogo": "https://picsum.photos/100/100?random=9",
+        "model": "Q7",
+        "modelImage": "https://www.noleggiosemplice.it/static/images/offers/1633006014492_AUDI-Q7-45-frontale.png",
+        "year": 2020,
+        "price": 41700,
+        "available": false
+    }
+]

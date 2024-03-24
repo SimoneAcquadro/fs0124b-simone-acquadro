@@ -1,0 +1,55 @@
+<div class="px-4 py-5 text-center">
+  <h1 class="display-5 fw-bold text-body-emphasis">Autosalone Mary</h1>
+  <div class="col-lg-6 mx-auto">
+    <p class="lead mb-4">Il concessionario più fresco della Valle Cervo (BI)</p>
+  </div>
+</div>
+
+<div class="container col-xxl-8 px-4 py-1">
+  <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+    <div class="col-10 col-sm-8 col-lg-2">
+      <img src="..//src/assets/loghi/1024px-Fiat_Automobiles_logo.svg.png" class="d-block mx-lg-auto img-fluid"
+        width="700" height="500" loading="lazy" routerLink="/fiat">
+    </div>
+    <div class="col-10 col-sm-8 col-lg-2">
+      <img src="..//src/assets/loghi/Audi-Logo_2016.svg.png" class="d-block mx-lg-auto img-fluid" width="700"
+        height="500" loading="lazy" routerLink="/audi">
+    </div>
+    <div class="col-10 col-sm-8 col-lg-2">
+      <img src="..//src/assets/loghi/Ford-Logo.png" class="d-block mx-lg-auto img-fluid" width="700" height="500"
+        loading="lazy" routerLink="/ford">
+    </div>
+    <div class="col-lg-6">
+      <h2 class="display-5 fs-1 fw-bold text-body-emphasis lh-1 mb-3">I nostri marchi pazzeschi, disponibili SOLAMENTE
+        PER OGGI!!!</h2>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="album py-5">
+  <div class="container">
+
+    <div class="row">
+
+      <div class="card col-4">
+        <img src="{{macchineRandom[0].modelImage}}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{macchineRandom[0].model}}</h5>
+          <p class="card-text">Anno: {{macchineRandom[0].year}}, Prezzo: {{macchineRandom[0].price}}</p>
+          <a [routerLink]="'/' + macchineRandom[0].brand.toLowerCase()" class="btn text-white" [ngClass]="{'bg-success':macchineRandom[0].available}">Scopri tutte le nostre {{macchineRandom[0].brand}}</a>
+        </div>
+      </div>
+      <div class="col-4"></div>
+      <div class="card col-4">
+        <img src="{{macchineRandom[1].modelImage}}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{macchineRandom[1].model}}</h5>
+          <p class="card-text">Anno: {{macchineRandom[1].year}}, Prezzo: {{macchineRandom[1].price}}</p>
+          <a [routerLink]="'/' + macchineRandom[1].brand.toLowerCase()" class="btn text-white" [ngClass]="{'bg-success':macchineRandom[1].available}">Scopri tutte le nostre {{macchineRandom[1].brand}}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
