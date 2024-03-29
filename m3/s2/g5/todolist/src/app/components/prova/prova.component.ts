@@ -9,8 +9,12 @@ import { UsersService } from '../../services/users.service';
 })
 export class ProvaComponent {
 
+  serviceUsers: any;
+
   constructor(public serviceProva:TodosService) {}
 
   ngOnInit(): void {}
+
+  todoArr:any[] = [TodosService]
 
 }
