@@ -1,18 +1,19 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FormsModule } from '@angular/forms';
-import { ProvaComponent } from './components/prova/prova.component';
-import { UserComponent } from './components/user/user.component';
-import { UsersService } from './services/users.service';
+import { AllComponent } from './pages/all/all.component';
+import { CompletedComponent } from './pages/completed/completed.component';
+import { UncompletedComponent } from './pages/uncompleted/uncompleted.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProvaComponent,
-    UserComponent,
+    AllComponent,
+    CompletedComponent,
+    UncompletedComponent
   ],
   imports: [
     BrowserModule,

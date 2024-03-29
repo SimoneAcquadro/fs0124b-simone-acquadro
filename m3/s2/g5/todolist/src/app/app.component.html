@@ -1,5 +1,20 @@
-<div class="container m-5">
-  <h1>Anche oggi procrastiniamo?</h1>
-  <app-prova></app-prova>
+<div class="container">
+  <h1 class="mt-5">Buongiorno caro procrastinatore</h1>
+
+  <div class="row mt-3">
+    <div class="col-auto">
+      <button routerLink="/all" class="btn btn-primary">Varda tüt</button>
+    </div>
+    <div class="col-auto">
+      <button routerLink="/completed" class="btn btn-primary">Varda i bun</button>
+    </div>
+    <div class="col-auto">
+      <button routerLink="/uncompleted" class="btn btn-primary">Varda i nen bun</button>
+    </div>
+  </div>
+</div>
+<div class="container mt-5">
+
+  <router-outlet></router-outlet>
 
 </div>

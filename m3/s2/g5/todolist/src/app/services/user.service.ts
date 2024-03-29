@@ -3,9 +3,8 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
-export class UsersService {
-
-  users = [
+export class UserService {
+  user:any[] = [
     {
       "id":1,
       "firstName":"Terry",
@@ -807,7 +806,6 @@ export class UsersService {
       "title":"VP Sales"
     }
   ]
-
 
   constructor() { }
 }

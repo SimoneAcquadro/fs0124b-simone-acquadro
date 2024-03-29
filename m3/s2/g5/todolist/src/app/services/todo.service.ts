@@ -3,9 +3,8 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
-export class TodosService {
-
-  todo = [
+export class TodoService {
+  todo:any[] = [
     {
       "id":1,
       "todo":"Do something nice for someone I care about",
@@ -907,7 +906,6 @@ export class TodosService {
       "userId":32
     }
   ]
-
 
   constructor() { }
 }

@@ -1,0 +1,10 @@
+<div class="d-flex flex-column flex-md-row">
+  <div class="list-group">
+    <label class="list-group-item d-flex gap-2 my-2 border text-white" *ngFor="let sium of result" [ngClass]="{'bg-success':sium.completed, 'bg-danger':!sium.completed}">
+      <input class="form-check-input flex-shrink-0" type="checkbox" [(ngModel)]="sium.completed">
+      <span>
+        {{sium.todo}}
+        <small class="d-block text-white">Assigned to: {{allUsers.user[sium.userId].firstName + ' ' + allUsers.user[sium.userId].lastName}}</small>
+      </span>
+    </label>
+  </div>
